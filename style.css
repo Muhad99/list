@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace ;
+    background: orange;
+    overflow: hidden;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.groce{
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background: white;
+    box-sizing: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+}
+
+.groce h1{
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+.groce i{
+    font-size: 2rem;
+    color: orange;
+}
+.groce input{
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+#allItems h2{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+
+}
+
+@media(max-width:480px){
+    .groce h1{
+        font-size: 2rem;
+    }
+    .groce i{
+        font-size: 1.5rem;
+    }
+    .groce input{
+        font-size: 1rem;
+    }
+    .groce h2{
+        margin-left: 25px;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
